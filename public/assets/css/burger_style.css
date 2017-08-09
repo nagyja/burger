@@ -1,0 +1,75 @@
+* { 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #18AFE6;
+}
+
+h1, h2, ul, label {
+    font-family: 'Bungee Shade', serif;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 50px;
+}
+
+h2 {
+    padding: 15px 0 15px 10%;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+li {
+    background-color: #FEBB22;
+    border-radius: 5px;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+}
+
+li form {
+    float: right;
+}
+
+button {
+    background-color: #D81C0E;
+    border-style: none;
+    box-shadow: none;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.image {
+    width: 100%;
+    clear: both;
+    float: left;
+    text-align: center;
+}
+
+.toBeEaten {
+    clear: both;
+    display: inline-block;
+    width: 50%;
+}
+
+.eaten {
+    clear: both;
+    float: right;
+    width: 50%;
+}
+
+.addBurger {
+    text-align: center;
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.notEaten form {
+    display: inline-block;
+}
